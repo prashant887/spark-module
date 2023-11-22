@@ -3,6 +3,9 @@ Objective
 Objective is to decouple dependent modules and executing models and create Thin Jars 
 
 Dependent Common Module : https://github.com/prashant887/modules-common.git
+
+Spark Submit
+--
 bin/spark-submit \
 --jars /Users/pl/IdeaProjects/modules-common/target/scala-2.13/modules-common_2.13-0.1.0-SNAPSHOT.jar \
 --master local \
